@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AddController {
-    @GetMapping("/add")
-    public int add(@RequestParam int a, @RequestParam int b) {
-        return a + b;
-    }
+  @GetMapping("/add")
+  public int add(@RequestParam int a, @RequestParam int b) {
+    return a + b;
+  }
 }
